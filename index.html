@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        virtual scrolling
+    </title>
+
+    <script type="module" src="index.js"></script>
+    <script type="module" src="table.js"></script>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 100vw;
+        height: 100vh;
+        background-color: azure;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        width: 80%;
+        height: 80%;
+        background-color: cadetblue;
+        overflow-y: auto;
+    }
+</style>
+<body>
+    <div class="container"></div>
+</body>
+</html>
